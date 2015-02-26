@@ -1,22 +1,30 @@
 # Facebook-Location-OSINT
 Retrieve someones private Facebook location, using their public information.
 
-This is working, but needs alot of work.
-
-This does not use the Facebook API, it scrapes everything(except the locales) from the mobile site.
-Input you're facebook email and password and the username of you're target, and the program does its magic.
-
-Technique:
+What does it do?
 ------
-  1. Get every public photo's likes.
-  2. Check wheter their hometown or current living city is public for every person that liked a photo .
-  3. Return the city or town that was found the most times.
-  
-TODO:
-------
-* Improve error handeling
-* Improve regular expressions
-* Use more than only photos
-* Check wheter the target has an available location
+If the place where someone lives is not public on their Facebook account, this program will guess it given the targets public facebook account.
 
-Warning: Using this script might trigger an login alert, which is logical because it actually logs in. 
+How does it work?
+------
+1.Login to Facebooks mobile site.
+2.Get the links to every public photo
+3.Get the usernames of everyone that liked a photo
+4.Get the public hometowns and current cities of every user from step 3
+5.Return the city / town that was found the most times.
+
+How to use it?
+------
+Python 
+
+Why do I need to give my Facebook credentials?
+------
+Public information on Facebook is only available to people that have logged in.
+Thus, to get the public information an account is needed.
+
+**Warning:** This will generate a login warning.
+
+Requirements
+------
+* Requests library for Python
+* Not the Python Facebook API, this is a scraper it gets all the information from the mobile facebook site.
