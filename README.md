@@ -7,15 +7,19 @@ If the place where someone lives is not public on their Facebook account, this p
 
 How does it work?
 ------
-1.Login to Facebooks mobile site.
-2.Get the links to every public photo
-3.Get the usernames of everyone that liked a photo
-4.Get the public hometowns and current cities of every user from step 3
-5.Return the city / town that was found the most times.
+1. Login to Facebooks mobile site.
+2. Get the links to every public photo
+3. Get the usernames of everyone that liked a photo
+4. Get the public hometowns and current cities of every user from step 3
+5. Return the city / town that was found the most times.
 
 How to use it?
 ------
-Python 
+**Command**: Python get_location.py username_of_target own@facebook.mail facebookpassword
+
+
+###### Get the username of the target:
+Go to their account and look at the url. The url should look something like this: https://www.facebook.com/user.name?parameters=1 The user.name is the username
 
 Why do I need to give my Facebook credentials?
 ------
