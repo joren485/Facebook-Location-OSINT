@@ -17,7 +17,7 @@ How to use it?
 ------
 **Command**: Python get_location.py username_of_target own@facebook.mail facebookpassword
 
-###### Get the username of the target:
+**Get the username of the target:**
 Go to their account and look at the url. The url should look something like this: https://www.facebook.com/user.name?parameters=1 The user.name is the username
 
 Why do I need to give my Facebook credentials?
