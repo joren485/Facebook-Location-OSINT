@@ -20,12 +20,14 @@ How to use it?
 ###### Get the username of the target:
 Go to their account and look at the url. The url should look something like this: https://www.facebook.com/user.name?parameters=1 The user.name is the username
 
-##### Why do I need to give my Facebook credentials?
+Why do I need to give my Facebook credentials?
+------
 Public information on Facebook is only available to people that have logged in.
 Thus, to get the public information an account is needed. Check the code, your credentials are only used to login to Facebook.
 
 **Warning:** This program may generate a login warning.
 
-##### Requirements
+Requirements
+------
 * Requests library for Python
 * Not the Python Facebook API, this is a scraper it gets all the information from the mobile facebook site.
