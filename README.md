@@ -11,7 +11,7 @@ How does it work?
 2. Get the links to every public photo
 3. Get the usernames of everyone that liked a photo
 4. Get the public hometowns and current cities of every user from step 3
-5. Return the city / town that was found the most times
+5. Return the city / town that was found the most
 
 How to use it?
 ------
